@@ -23,3 +23,10 @@
 ![Result Screenshot 2](./img/result2.jpg)
 ![Result Screenshot 3](./img/result3.jpg)
 ![Result Screenshot 4](./img/result4.jpg)
+
+## Contributing
+  * New feature suggestions is welcome in repository [issues](https://github.com/WallyYang/WechatGroupManager/issues), please include detailed description of how the new feature works.
+  * Contributing your code, either fix bug, or implement new features(discuss in issues first), is welcome through fork & pull request.
+
+## License
+This software is licensed under the [GPL v3 license][gpl].
