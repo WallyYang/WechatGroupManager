@@ -20,7 +20,7 @@ class WechatGroupManager():
             "faq": self.faq,
             "q": self.ques,
             "a": self.answ,
-            "resolved": self.resolved,
+            "r": self.resolved,
         }
 
     def get_cmds(self):
