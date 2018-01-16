@@ -29,4 +29,4 @@
   * Contributing your code, either fix bug, or implement new features(discuss in issues first), is welcome through fork & pull request.
 
 ## License
-This software is licensed under the [GPL v3 license](www.gnu.org/copyleft/gpl.html).
+This software is licensed under the [GPL v3 license](https://www.gnu.org/copyleft/gpl.html).
