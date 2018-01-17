@@ -20,6 +20,7 @@ def reply_group_message(msg: Message):
             return "我被AT了！"
         elif args[1] not in manager.get_cmds():
             logging.info('invalid command received: {}'.format(args[1]))
+            return "Error: command not found"
         else:
             logging.info('commands received: {}'.format(args[1]))
             ret_msgs = manager.run_cmd(args[1], args[2:])
