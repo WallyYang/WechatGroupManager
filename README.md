@@ -24,6 +24,18 @@
 ![Result Screenshot 3](./img/result3.jpg)
 ![Result Screenshot 4](./img/result4.jpg)
 
+## Run
+```bash
+# Before using the robot, you will need python3 and wxpy
+
+$ git clone https://github.com/WallyYang/WechatGroupManager.git
+$ cd WechatGroupManager/src
+
+$ python main.py
+# or 
+$ python3 main.py
+```
+
 ## Contributing
   * New feature suggestions is welcome in repository [issues](https://github.com/WallyYang/WechatGroupManager/issues), please include detailed description of how the new feature works.
   * Contributing your code, either fix bug, or implement new features(discuss in issues first), is welcome through fork & pull request.
