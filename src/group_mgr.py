@@ -59,7 +59,7 @@ class WechatGroupManager():
         number = randrange(0, 10000)
         while number in self.questions:
             number = randrange(0, 10000)
- 
+
         logging.info('assign question with number: {}'.format(number))
         print("收到提问，分配编号{}".format(number))
 
@@ -83,10 +83,13 @@ class WechatGroupManager():
             ret.append("啊哦，问题编号无效，请检查")
         else:
             if self.questions[number] == "taken":
-                logging.info('adding extra answer for question number: {}'.format(number))
+                (logging
+                 .info('adding extra answer \
+                 for question number: {}'.format(number)))
                 ret.append("添加新回答")
             else:
-                logging.info('adding original answer for question number: {}'.format(number))
+                logging.info('adding original answer \
+                for question number: {}'.format(number))
                 ret.append("回答No.{}".format(number))
                 self.questions[number] = "taken"
         return ret

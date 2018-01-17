@@ -52,5 +52,5 @@ if __name__ == '__main__':
     manager.owner.send('{}你好，{}正在工作～'.format(owner_id, mgr_id))
     manager.group.send("{}群管理机器人已上线".format(mgr_id))
 
-    embed() # blocked and Python repl
-    #mgr.join()     # blocked only
+    embed()    # blocked and Python repl
+    # mgr.join()     # blocked only
